@@ -3,16 +3,16 @@ Clean and minimalist portfolio website showcasing my projects and skills. Built 
 
 Key Features:
 
-Clean and responsive design
+  Clean and responsive design
 
-Sections for projects, skills, and contact details
+  Sections for projects, skills, and contact details
 
-Easily customizable for personal branding
+  Easily customizable for personal branding
 
-Lightweight and fast loading
+  Lightweight and fast loading
 
 Technologies Used:
 
-HTML5
+  HTML5
 
-Basic level CSS
+  Basic level CSS
