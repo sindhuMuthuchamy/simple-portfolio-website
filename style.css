@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+.container{
+    padding: 50px;
+}
+.section-one{
+     background-color: rgb(78, 2, 78); 
+    /* background-color: black; */
+    color: silver;
+    padding: 20px;
+}
+.section-one__name{
+    font-size: 40px;
+    padding-top: 10px;
+}
+.section-one__role{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.section-one__contact{
+    background-color: goldenrod;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 5px;
+    display: inline-block;
+    color: black;
+    border-radius: 10px;
+}
+.section-one__contact:hover{
+    background-color:silver;
+    color: black;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.section-two, .section-three, .section-four, .section-five{
+    margin-top: 20px;
+}
+.section-three__list li, .section-four__list li{
+    list-style: circle;
+    margin-left: 10px;
+}
+.section-two__about,.section-three__intrest, .section-four__projects, .section-five__contact{
+    padding-bottom: 10px;
+     color: rgb(78, 2, 78); 
+    /* color: black; */
+    font-size: 20px;
+}
+.section-three{
+    display: inline-block;
+    padding: 20px;
+    background-color: silver;
+    border-radius: 10px;
+    vertical-align: top;
+    height: 130px;
+}
+.section-four{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 20px;
+    background-color: silver;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.section-four__list li{
+    color: rgb(59, 53, 53);
+}
+.section-five{
+    background-color:rgb(78, 2, 78); 
+    /* background-color: black; */
+    color: silver;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}.section-five__sm a{
+    color: goldenrod;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.section-five__copy{
+    color: black; 
+    /* color: white; */
+    padding: 10px;
+}
+.contact-form{
+    margin-top: 20px;
+    margin-left: 35%;
+}
+.contact-form__input, .contact-form__textarea, .contact-form__submit,.contact-form__reset{
+    margin-top: 10px;
+}
+.contact-form__input,.contact-form__textarea {
+    padding: 10px;
+    border: none;
+    border-bottom: solid silver 1px;
+}
+.contact-form__submit, .contact-form__reset{
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 10px; padding-right: 10px;
+    background-color: goldenrod;
+    border: none;
+}
+.contact-form__reset:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.contact-form__submit:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.animation{
+        width: 300px;
+        height: 50px;
+        background-color:peachpuff;
+        position: relative;
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count:20;
+        text-align:center;
+        display: inline-block;
+      }
+      
+      @keyframes example {
+        0%   {background-color:silver; top:100px; bottom:0px;}
+        25%  {background-color:pink; top:0px; bottom:200px;}
+        50%  {background-color:skyblue; bottom:0px; top:100px;}
+        75%  {background-color:palegoldenrod; bottom:200px; top:0px;}
+        100% {background-color:papayawhip; bottom:0px; top:100px;}
+      }
+
+      
