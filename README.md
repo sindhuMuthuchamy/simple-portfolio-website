@@ -3,6 +3,7 @@ Clean and minimalist portfolio website showcasing my projects and skills. Built 
 
 # Pages 
 Home (About , Skills, Projects )
+
 Contact
 
 # Key Features:
