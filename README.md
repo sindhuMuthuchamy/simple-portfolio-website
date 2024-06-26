@@ -12,7 +12,7 @@ Contact
 
   Sections for projects, skills, and contact details
 
-  Easily customizable for personal branding
+  Easily customizable 
 
   Lightweight and fast loading
 
